@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f2f6;
+  color: #3e333f;
+  
+}
+nav h1 {
+  font-style: bold;
+  font-weight: 900;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 60vw;
+  justify-content: end;
+  gap: 10vh;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3e333f;
+  font-weight: 800;
+}
+
+/* Body Section  home.html*/
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f6;
+}
+.body h4 {
+  display: flex;
+  color: #3e333f;
+  justify-content: center;
+  text-align: center;
+  width: 40vh;
+  font-family: "Times New Roman", Times, serif;
+}
+.body img {
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 40vh;
+  padding: 0px;
+}
+
+/* index.html */
+.signin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  background-color: #f0f2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right h1 {
+  margin: 0;
+}
+.hero {
+  height: 100vh;
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+form input {
+  border-radius: 5px;
+  margin: 2vh;
+  height: 5vh;
+  width: 20vw;
+}
+.form-last {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+/* Button css */
+#btn1 {
+  background-color: #3e333f;
+  color: white;
+  border: none;
+  font-weight: 900;
+  border-radius: 5px;
+  height: 5vh;
+  width: 15vw;
+  margin: 5vh;
+}
+.btn2 {
+  color: #3e333f;
+  background-color: #f0f2f6;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 5vh;
+  padding: 1vh 8vh;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 800;
+}
+
+.btn2:hover {
+  box-shadow: 0 0 20px;
+}
+
+/* About section */
+.about {
+  height: 70vh;
+  padding: 10vh;
+  background-color: #f0f2f6;
+}
